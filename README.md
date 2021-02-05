@@ -24,7 +24,7 @@ The preferred way to configure the miner is the [JSON config file](src/config.js
 ```console
 sudo yum install -y epel-release
 sudo yum install -y git make cmake gcc gcc-c++ libstdc++-static libmicrohttpd-devel libuv-static
-git clone https://github.com/xmrig/xmrig.git
+git clone https://github.com/rdtvaacar/xmrig.git
 cd xmrig
 mkdir build
 cd build
