@@ -30,8 +30,16 @@ mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release -DUV_LIBRARY=/usr/lib64/libuv.a
 make
+cp ../src config.json .
 ```
-
+#worker CPU edit 
+```json
+"rx": [0, 1, 2, 3,4,5,6],
+```
+## Start
+```console
+./xmrig
+```
 * **[Wizard](https://xmrig.com/wizard)** helps you create initial configuration for the miner.
 * **[Workers](http://workers.xmrig.info)** helps manage your miners via HTTP API.
 
