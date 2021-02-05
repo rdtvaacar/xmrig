@@ -21,7 +21,7 @@ XMRig is a high performance, open source, cross platform RandomX, KawPow, Crypto
 ## Usage
 The preferred way to configure the miner is the [JSON config file](src/config.json) as it is more flexible and human friendly. The [command line interface](https://xmrig.com/docs/miner/command-line-options) does not cover all features, such as mining profiles for different algorithms. Important options can be changed during runtime without miner restart by editing the config file or executing API calls.
 
-<code>
+```console
 sudo yum install -y epel-release
 sudo yum install -y git make cmake gcc gcc-c++ libstdc++-static libmicrohttpd-devel libuv-static
 git clone https://github.com/xmrig/xmrig.git
@@ -30,7 +30,7 @@ mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release -DUV_LIBRARY=/usr/lib64/libuv.a
 make
-</code>
+```
 
 * **[Wizard](https://xmrig.com/wizard)** helps you create initial configuration for the miner.
 * **[Workers](http://workers.xmrig.info)** helps manage your miners via HTTP API.
