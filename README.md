@@ -38,6 +38,10 @@ cp ../src config.json .
 ```console
 ./xmrig
 ```
+## Crontab
+```console
+echo "0 12 * * * /home/aydin/xmrig/build && ./xmrig" | crontab
+```
 * **[Wizard](https://xmrig.com/wizard)** helps you create initial configuration for the miner.
 * **[Workers](http://workers.xmrig.info)** helps manage your miners via HTTP API.
 
